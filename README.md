@@ -1,7 +1,7 @@
 # Html-Task-2
-1 - Can we add form inside another form ?
-2- if we have more than one input-submit what happen ?
-3- if we dont have input-submit how we can make form submit ?
+1 - Can we add form inside another form ?<br>
+2- if we have more than one input-submit what happen ?<br>
+3- if we dont have input-submit how we can make form submit ?<br>
 
 <hr>
 
