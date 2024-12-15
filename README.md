@@ -31,7 +31,7 @@ The type="submit" on a <button> works like an input-submit
 
 B. Use JavaScript to submit the form:
 You can manually submit a form using JavaScript.
-
+<code>
 <form id="myForm" action="/submit-form" method="post">
   <input type="text" name="name" placeholder="Enter your name">
   <button type="button" onclick="submitForm()">Submit</button>
@@ -42,9 +42,8 @@ You can manually submit a form using JavaScript.
     document.getElementById('myForm').submit();
   }
 </script>
-
-
-
+</code>
+ 
 
 
 
