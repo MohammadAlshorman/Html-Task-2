@@ -22,7 +22,7 @@ The value of the clicked input-submit will be included in the form's data during
  &lt;input type="text" name="username" placeholder="Enter your username"&gt;
   &lt;input type="submit" name="action" value="Save"&gt;
   <&lt;nput type="submit" name="action" value="Delete"&gt;
-</form&gt;
+form&gt;
 <code>
 <hr>
 
@@ -35,10 +35,10 @@ The type="submit" on a <button> works like an input-submit
 B. Use JavaScript to submit the form:
 You can manually submit a form using JavaScript.
 <code>
-<form id="myForm" action="/submit-form" method="post">
-  <input type="text" name="name" placeholder="Enter your name">
-  <button type="button" onclick="submitForm()">Submit</button>
-</form>
+&lt;form id="myForm" action="/submit-form" method="post&gt;
+  &lt;input type="text" name="name" placeholder="Enter your name"&gt;
+ &lt;button type="button" onclick="submitForm()">Submit</button&gt;
+&lt;/form&gt;
 
 <script>
   function submitForm() {
