@@ -19,10 +19,10 @@ Only the button that is clicked will trigger the submission.
 The value of the clicked input-submit will be included in the form's data during submission (if the button has a name attribute).
 <code>
 &lt;form action="/submit-form" method="post"&gt;
-  <input type="text" name="username" placeholder="Enter your username">
-  <input type="submit" name="action" value="Save">
-  <input type="submit" name="action" value="Delete">
-</form>
+ &lt;input type="text" name="username" placeholder="Enter your username"&gt;
+  &lt;input type="submit" name="action" value="Save"&gt;
+  <&lt;nput type="submit" name="action" value="Delete"&gt;
+</form&gt;
 <code>
 <hr>
 
